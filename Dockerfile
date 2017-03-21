@@ -1,4 +1,4 @@
 FROM java:6
-COPY HelloWorld.java /
+COPY src/HelloWorld.java /
 RUN javac HelloWorld.java
 ENTRYPOINT ["java","HelloWorld"]
